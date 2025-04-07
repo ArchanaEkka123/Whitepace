@@ -1,0 +1,119 @@
+.projects-main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  @media (max-width: 800px) {
+    gap: 40px;
+  }
+  .heading-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .underline {
+      width: 100px;
+      height: 4px;
+      border-radius: 2px;
+     margin-top: 50px;
+    }
+  }
+}
+
+.sec_holder {
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 95%;
+  
+ 
+  @media (max-width: 1000px) {
+    width: 800px;
+  }
+  @media (max-width: 800px) {
+    width: 600px;
+  }
+  @media (max-width: 600px) {
+    width: 410px;
+  }
+  @media (max-width: 400px) {
+    width: 300px;
+    flex-direction: column;
+  }
+  .left-box {
+    width: 406px;
+    margin: auto;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 20px;
+    .heading-sub {
+      display: flex;
+      font-family: Playfair Display;
+      font-weight: 700;
+      font-size: 40px;
+      
+      flex-wrap: wrap;
+      @media (max-width: 1000px) {
+        font-size: 30px;
+      }
+      @media (max-width: 600px) {
+        font-size: 20px;
+      }
+    }
+    .projects-content {
+      display: flex;
+      font-family: Nunito;
+      font-weight: 400;
+      font-size: 18px;
+      
+      flex-wrap: wrap;
+      @media (max-width: 600px) {
+        font-size: 12px;
+      }
+      @media (max-width: 400px) {
+        width: 280px;
+      }
+    }
+    .button-view {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 201px;
+      height: 63px;
+      border-radius: 24px;
+      padding: 8px 24px;
+     background-color: #4F9CF9;
+      font-family: Roboto;
+      font-weight: 500;
+      font-size: 18px;
+      border-radius: 8px;
+      gap: 10px;
+      @media (max-width: 600px) {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        
+      }
+    }
+  }
+  .right-box {
+    display: flex;
+
+    .right-box-image {
+      @media (max-width: 1000px) {
+        width: 400px;
+      }
+      @media (max-width: 800px) {
+        width: auto;
+      }
+    }
+  }
+}
