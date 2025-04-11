@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.scss";
 import About from "./about";
 import Navbar from "./navbar";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
@@ -11,7 +12,8 @@ const Projects = () => {
       </div>
 
       <div className="sec_holder bg-white">
-        <div className=" left-box ">
+      
+       <div className=" left-box ">
           <p className="heading-sub">Project Management</p>
           <p className="projects-content">
             Images, videos, PDFs and audio files are supported. Create math
@@ -31,6 +33,14 @@ const Projects = () => {
             </button>
           </div>
         </div>
+    
+
+    <motion.div
+            className=""
+            initial={{ x: +500, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
         <div className="right-box">
           <img
             className="right-box-image  "
@@ -40,9 +50,16 @@ const Projects = () => {
             height={547}
           />
         </div>
+        </motion.div>
       </div>
 
       <div className="sec_holder bg-white">
+      <motion.div
+            className=""
+            initial={{ x: -500, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
         <div className="right-box">
           <img
             className="right-box-image  "
@@ -50,6 +67,7 @@ const Projects = () => {
             alt="Description of the image"
           />
         </div>
+        </motion.div>
         <div className=" left-box ">
           <p className="heading-sub">Work together</p>
           <p className="projects-content">
@@ -94,6 +112,13 @@ const Projects = () => {
             </button>
           </div>
         </div>
+
+        <motion.div
+            className=""
+            initial={{ x: +500, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
         <div className="right-box">
           <img
             className="right-box-image 
@@ -104,9 +129,16 @@ const Projects = () => {
             height={479}
           />
         </div>
+        </motion.div>
       </div>
 
       <div className="sec_holder bg-white">
+      <motion.div
+            className=""
+            initial={{ x: -500, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
         <div className="right-box">
           <img
             className="right-box-image 
@@ -117,6 +149,7 @@ const Projects = () => {
             height={479}
           />
         </div>
+        </motion.div>
         <div className=" left-box ">
           <p className="heading-sub">Customise it to your needs</p>
           <p className="projects-content">

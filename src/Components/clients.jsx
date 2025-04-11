@@ -3,16 +3,16 @@ import "./clients.scss";
 
 const Clients = () => {
   return (
-    <div className="plan_main">
-      <div className="plan-sec">
-        <div className="plan-heading">
+    <div className="clients_main">
+      <div className="clients-sec">
+        <div className="clients-heading">
           <div className="content-holder  ">
             <h1 className="heading ">What Our Clients Says</h1>
           </div>
         </div>
 
-        <div className="plan-card-holder ">
-          <div className="plan-card bg-white border-b-amber-100">
+        <div className="clients-card-holder ">
+          <div className="clients-card p-5 bg-white border-b-amber-100">
            
               <div className="Quote">
                 <img
@@ -36,7 +36,7 @@ const Clients = () => {
                   width={95}
                   height={95}
                 />
-                <div className="fav-content-right w-100  ">
+                <div className="fav-content-right  ">
                   <h3 className="text-2xl">Oberon Shaw, MCH </h3>
                   <p>Head of Talent Acquisition, North America</p>
                 </div>
@@ -44,7 +44,7 @@ const Clients = () => {
             </div>
           </div>
 
-          <div className="plan-card card-blue  bg-blue-400 border-b-amber-100 text-white">
+          <div className="clients-card p-5 card-blue  bg-blue-400 border-b-amber-100 text-white">
             <div className="Quote">
               <img
                 className="right-box-image "
@@ -67,13 +67,13 @@ const Clients = () => {
                 width={95}
                 height={95}
               />
-              <div className="fav-content-right w-100  ">
+              <div className="fav-content-right  ">
                 <h3 className="text-2xl">Oberon Shaw, MCH </h3>
                 <p>Head of Talent Acquisition, North America</p>
               </div>
             </div>
           </div>
-          <div className="plan-card card-blue  bg-blue-400 border-b-amber-100 text-white">
+          <div className="clients-card p-5 card-blue  bg-blue-400 border-b-amber-100 text-white">
             <div className="Quote">
               <img
                 className="right-box-image "
@@ -96,7 +96,7 @@ const Clients = () => {
                 width={95}
                 height={95}
               />
-              <div className="fav-content-right w-100  ">
+              <div className="fav-content-right  ">
                 <h3 className="text-2xl">Oberon Shaw, MCH </h3>
                 <p>Head of Talent Acquisition, North America</p>
               </div>

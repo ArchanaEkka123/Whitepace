@@ -16,8 +16,8 @@ const Work = () => {
              Dropbox and OneDrive. The app is available on Windows, 
              macOS, Linux, Android and iOS. A terminal app is also available!
             </p>
-            <div className="button-holder m-10 ">
-              <button className="button text-amber-50">
+            {/* <div className="button-holder m-10 "> */}
+              <button className="work-button text-amber-50">
               Try Taskey
                 <img
                   className="right-box-image  "
@@ -27,7 +27,7 @@ const Work = () => {
                   height={14}
                 />
               </button>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       

@@ -26,26 +26,15 @@
 
 .sec_holder {
   display: flex;
-    justify-content: center;
+    // justify-content: center;
   align-items: center;
   flex-direction: row;
   width: 95%;
-  
- 
-  @media (max-width: 1000px) {
-    width: 800px;
-  }
-  @media (max-width: 800px) {
-    width: 600px;
-  }
+  justify-content: space-between;   
   @media (max-width: 600px) {
-    width: 410px;
-  }
-  @media (max-width: 400px) {
-    width: 300px;
     flex-direction: column;
   }
-  .left-box {
+     .left-box {
     width: 406px;
     margin: auto;
     gap: 24px;
@@ -104,16 +93,15 @@
       }
     }
   }
-  .right-box {
+  .right-box {  
     display: flex;
 
     .right-box-image {
       @media (max-width: 1000px) {
         width: 400px;
       }
-      @media (max-width: 800px) {
-        width: auto;
-      }
+      
+      
     }
   }
 }

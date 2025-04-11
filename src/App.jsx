@@ -11,8 +11,8 @@ import Navbar from "./Components/navbar";
 const App = () => {
   return (
     <BrowserRouter>
-    <div className="nav-app">  <Navbar /></div>  
-  
+    <div  className="nav-app">  <Navbar /></div>  
+    {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

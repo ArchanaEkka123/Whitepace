@@ -3,13 +3,16 @@ import "./navbar.scss"; // Optional for styling
 
 const Navbar = () => {
   return (
-    <div className="nav">
-      <nav className="navbar justify-around">
-        <div className="nav-heading-logo">
+    
+      <nav className="navbar justify-evenly  ">
+
+<div className="nav-heading-logo">
         <img
-                className="myimage"
+                className="logo"
                 src="/images/whitepace-Logo.svg"
                 alt="Description of the image"
+                width={37}
+                height={29}
               />
        <p className="nav_heading  text-amber-50">whitepace</p> 
         </div>
@@ -39,6 +42,7 @@ const Navbar = () => {
             </Link>
             </li>
           </ul>
+          
           <div className="nav-button-holder  ">  
           <button className="button-login text-black">Login</button>
                 
@@ -53,8 +57,13 @@ const Navbar = () => {
                 </button>
                 
               </div>
-      </nav>
-    </div>
+
+
+       
+
+
+      </nav>  
+     
   );
 };
 

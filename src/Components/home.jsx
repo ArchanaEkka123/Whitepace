@@ -10,16 +10,23 @@ import Data from "./data";
 import Sponsors from "./sponsors";
 import Favorite from "./favorite";
 import Clients from "./clients";
+import { motion } from "framer-motion";
 const Home = () => {
   return (
     
     <div className="main_outter ">
-    
-      <div className="main">
-        <div className="home_sec01 pt-20">
-        
-          <div className="home-sec">
-            <div className="home-left   ">   
+          <div className="main">
+
+          
+        <div className="home_sec01 ">
+                  <div className="home-sec">
+            {/* <div className="home-left   "> */}
+            <motion.div
+          className="home-left"
+          initial={{ y: -500, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6,  delay: 0.5, ease: "easeOut" }}
+        >   
               <div className="content-holder  ">
                 
                 <h1 className="home-heading text-amber-50">
@@ -30,10 +37,10 @@ const Home = () => {
                 Project management software that enables your 
                 teams to collaborate, plan, analyze and manage everyday tasks
                 </p>
-                <div className="button-holder m-10 ">  
-                <button className="button text-amber-50">Try Whitepace free 
+                {/* <div className="button-holder m-10 ">   */}
+                <button className="home-button ">Try Whitepace free 
                 <img
-                className="right-box-image  "
+                className="button-image  "
                 src="/images/right-arrow.svg"
                 alt="Description of the image"
                 width={14}
@@ -41,11 +48,19 @@ const Home = () => {
               />
                 </button>
                 
-              </div>
+              {/* </div> */}
               </div>
              
-            </div>
-            <div className="home-right ">
+              </motion.div>
+
+            
+            {/* <div className="home-right "> */}
+            <motion.div
+          className="home-right"
+          initial={{ y: -500, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
+        >
               <img
                 className="myimage"
                 src="/images/presentation4.jpg"
@@ -53,9 +68,15 @@ const Home = () => {
                 width={685}
                 height={456}
               />
-            </div>
+               </motion.div>
+            {/* </div> */}
+           
           </div>
         </div>
+       
+        {/* <div className="sec_holder bg-white">
+        </div> */}
+
                <Projects/>  
        <Plan/>
        <Work/>  

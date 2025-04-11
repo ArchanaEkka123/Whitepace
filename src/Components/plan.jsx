@@ -6,9 +6,9 @@ const Plan = () => {
     <div className="plan_main">
       <div className="plan-sec">
         <div className="plan-heading">
-          <div className="content-holder  ">
+          <div className="plan-content-holder  ">
             <h1 className="heading ">Choose Your Plan</h1>
-            <p className="home-content  ">
+            <p className="plan-sub-heading ">
               Whether you want to get organized, keep your personal life on
               track, or boost workplace productivity, Evernote has the right
               plan for you.
@@ -18,8 +18,8 @@ const Plan = () => {
 
 
 
-        <div  className="plan-card-holder ">
-        <div className="plan-card bg-white border-b-amber-100">
+        {/* <div  className="plan-card-holder ">
+        <div className="card-plan bg-white border-b-amber-100">
           <p>Free</p>
           <h1 className="font-bold">$0</h1> 
           <p>Capture ideas and find them quickly</p>
@@ -127,7 +127,7 @@ const Plan = () => {
             </button>
           </div>
         </div>
-        <div className="plan-card card-blue  bg-blue-900 border-b-amber-100 text-white">
+        <div className="card-plan card-blue  bg-blue-900 border-b-amber-100 text-white">
           <p>Personal</p>
           <h1 className="font-bold">$11.99</h1> 
           <p>Keep home and family on track</p>
@@ -239,7 +239,7 @@ const Plan = () => {
             </button>
           </div>
         </div>
-        <div className="plan-card bg-white border-b-amber-100 pt-20">
+        <div className="card-plan bg-white border-b-amber-100 pt-20">
           <p>Organization</p>
           <h1 className="font-bold">$49.99</h1> 
           <p>Capture ideas and find them quickly</p>
@@ -347,7 +347,7 @@ const Plan = () => {
             </button>
           </div>
         </div>
-        </div>
+        </div> */}
       
       </div>
     </div>

@@ -17,28 +17,28 @@ const Sponsors = () => {
             </div>
             <div className="sponsors-right ">
               <img
-                className="myimage"
+                className="apple"
                 src="/images/Apple.svg"
                 alt="Description of the image"
                 width={55}
                 height={68}
               />
                <img
-                className="myimage"
+                className="company-name-image"
                 src="/images/Microsoft.svg"
                 alt="Description of the image"
                 width={287}
                 height={62}
               />
                <img
-                className="myimage"
+                className="company-name-image"
                 src="/images/Slack.svg"
                 alt="Description of the image"
                 width={280}
                 height={71}
               />
                <img
-                className="myimage"
+                className="company-name-image"
                 src="/images/Google.svg"
                 alt="Description of the image"
                 width={211}

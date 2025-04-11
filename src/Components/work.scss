@@ -36,7 +36,7 @@
     flex-direction: column;
     justify-content:center ;
     align-items: center;
-    
+    gap: 20px;
           .home-heading {
             font-family: Playfair Display;
             font-weight: 700;
@@ -62,27 +62,26 @@
               font-size: 20px;
             }
           }
-
-          .button-holder {
+          .work-button {
+            width: 219px;
+            height: 63px;
+            background: #4F9CF9;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 18px;
+            gap: 10px;
             display: flex;
-            .button {
-              width: 219px;
-              height: 63px;
-              background: #4F9CF9;
-              font-family: Roboto;
-              font-weight: 500;
-              font-size: 18px;
-              gap: 10px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              @media (max-width: 900px) {
-                width: 100px;
-                height: 40px;
-              }
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            @media (max-width: 600px) {
+              width: 100px;
+              height: 35px;
+              font-size: 12px;
+              
             }
-           
           }
+          
         }
       }
 
