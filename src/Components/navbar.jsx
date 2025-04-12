@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./navbar.scss"; // Optional for styling
-
+import { useNavigate } from 'react-router-dom';
 const Navbar = () => {
   return (
     
@@ -30,13 +30,13 @@ const Navbar = () => {
           </li>
 
           <li className="hover:animate-bounce text-black-900 text-4xl font-semibold">
-            <Link to="/contactform" className="nav_content text-amber-50 ">
+            <Link to="/projects" className="nav_content text-amber-50 ">
               {" "}
               Resources
             </Link>
             </li>
             <li className="hover:animate-bounce text-black-900 text-4xl font-semibold">
-            <Link to="/contactform" className="nav_content  text-amber-50">
+            <Link to="/plan" className="nav_content  text-amber-50">
               {" "}
               Pricing
             </Link>
@@ -44,8 +44,12 @@ const Navbar = () => {
           </ul>
           
           <div className="nav-button-holder  ">  
-          <button className="button-login text-black">Login</button>
-                
+         
+          <a href="/contactform" target="_blank" >
+          <button className="button-login text-black"  
+         >Login</button>
+</a>
+             <a href="/services" target="_blank" >
                 <button className="button text-amber-50">Try Whitepace free
                 <img
                 className="right-box-image  "
@@ -55,7 +59,7 @@ const Navbar = () => {
                 height={14}
               />
                 </button>
-                
+                </a>
               </div>
 
 

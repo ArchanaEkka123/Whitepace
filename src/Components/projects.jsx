@@ -46,8 +46,8 @@ const Projects = () => {
             className="right-box-image  "
             src="/images/presentation3.jpg"
             alt="Description of the image"
-            width={748}
-            height={547}
+            width={700}
+            height={500}
           />
         </div>
         </motion.div>
@@ -65,6 +65,8 @@ const Projects = () => {
             className="right-box-image  "
             src="/images/Work-Together.svg"
             alt="Description of the image"
+            width={500}
+            height={300}
           />
         </div>
         </motion.div>
@@ -125,8 +127,8 @@ const Projects = () => {
              "
             src="/images/presentation1.jpg"
             alt="Description of the image"
-            width={686}
-            height={479}
+            width={500}
+            height={500}
           />
         </div>
         </motion.div>
@@ -145,8 +147,8 @@ const Projects = () => {
       "
             src="/images/presentation2.jpg"
             alt="Description of the image"
-            width={686}
-            height={479}
+            width={500}
+            height={500}
           />
         </div>
         </motion.div>

@@ -88,16 +88,26 @@ font-size: 20px;
   }
 }
 .button{
-  width: 115;
-  height: 43;
-  border-radius: 8px;
-  padding-top: 8px;
-  padding-right: 24px;
-  padding-bottom: 8px;
-  padding-left: 24px;
+ 
+  
   background: #FDC435;
+  color: white;
+  font-weight: 700;
+  width: 219px;
+  height: 63px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 18px;
-    color: #25282B;
+  border-radius: 10px;
+  @media (max-width: 1000px) {
+    width: 150px;
+    height: 45px;
+    font-size: 12px;
+    
+  }
+  @media (max-width: 600px) {
+    width: 110px;
+    height: 35px;
+    
+                }
 }

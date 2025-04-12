@@ -44,7 +44,7 @@ const ContactForm = () => {
     <div className=" test rounded-lg p-10 max-w-lg mx-auto ">
       
       <div className="heading-box">
-        <h1 className="heading font-bold "> Contact Us</h1>
+        <h1 className="heading font-bold text-2xl  "> Login</h1>
         <div className="underline"></div>
       </div>
       {submitted && (
@@ -55,7 +55,7 @@ const ContactForm = () => {
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="">
           <label htmlFor="name" className=" label-form font-medium">
-            Name
+            User Name
           </label>
           <input
             type="text"
@@ -74,7 +74,7 @@ const ContactForm = () => {
 
         <div>
           <label htmlFor="email" className="label-form font-medium">
-            Email
+            Email Id
           </label>
           <input
             type="email"
@@ -93,7 +93,7 @@ const ContactForm = () => {
 
         <div>
           <label htmlFor="message" className="label-form font-medium">
-            Message
+            Password
           </label>
           <textarea
             name="message"
@@ -109,7 +109,7 @@ const ContactForm = () => {
           )}
         </div>
         <div className="form_button">
-          <button type="submit" className="button  bg-amber-300 rounded">
+          <button type="submit" className="login-button  bg-blue-400  text-white">
             Submit
           </button>
         </div>

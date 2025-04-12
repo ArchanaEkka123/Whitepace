@@ -18,10 +18,10 @@ const Plan = () => {
 
 
 
-        {/* <div  className="plan-card-holder ">
+        <div  className="plan-card-holder ">
         <div className="card-plan bg-white border-b-amber-100">
           <p>Free</p>
-          <h1 className="font-bold">$0</h1> 
+          <h1 className="plan-price">$0</h1> 
           <p>Capture ideas and find them quickly</p>
 
           <div className="plan-card-content">
@@ -115,7 +115,7 @@ const Plan = () => {
           </div>
 
           <div className="plan-button-holder m-10 ">
-            <button className="plan-button">
+            <button className="plan-button bg-gray-300">
             Get Started
               <img
                 className="right-box-image  "
@@ -129,15 +129,14 @@ const Plan = () => {
         </div>
         <div className="card-plan card-blue  bg-blue-900 border-b-amber-100 text-white">
           <p>Personal</p>
-          <h1 className="font-bold">$11.99</h1> 
+          <h1 className=" text-amber-200 plan-price">$11.99</h1> 
           <p>Keep home and family on track</p>
-
           <div className="plan-card-content"> 
             <div>
 
             <img
               className="right-box-image "
-              src="/images/plan-icon.svg"
+              src="/images/plan-yellow-Icon.svg"
               alt="Description of the image"
               width={14}
               height={14}
@@ -150,7 +149,7 @@ const Plan = () => {
           <div className="plan-card-content">
             <img
               className="right-box-image "
-              src="/images/plan-icon.svg"
+              src="/images/plan-yellow-Icon.svg"
               alt="Description of the image"
               width={14}
               height={14}
@@ -164,7 +163,7 @@ const Plan = () => {
           <div className="plan-card-content">
             <img
               className="right-box-image "
-              src="/images/plan-icon.svg"
+              src="/images/plan-yellow-Icon.svg"
               alt="Description of the image"
               width={14}
               height={14}
@@ -178,7 +177,7 @@ const Plan = () => {
           <div className="plan-card-content">
             <img
               className="right-box-image "
-              src="/images/plan-icon.svg"
+              src="/images/plan-yellow-Icon.svg"
               alt="Description of the image"
               width={14}
               height={14}
@@ -190,7 +189,7 @@ const Plan = () => {
           <div className="plan-card-content">
             <img
               className="right-box-image "
-              src="/images/plan-icon.svg"
+              src="/images/plan-yellow-Icon.svg"
               alt="Description of the image"
               width={14}
               height={14}
@@ -203,7 +202,7 @@ const Plan = () => {
           <div className="plan-card-content">
             <img
               className="right-box-image "
-              src="/images/plan-icon.svg"
+              src="/images/plan-yellow-Icon.svg"
               alt="Description of the image"
               width={14}
               height={14}
@@ -215,7 +214,7 @@ const Plan = () => {
           <div className="plan-card-content">
             <img
               className="right-box-image "
-              src="/images/plan-icon.svg"
+              src="/images/plan-yellow-Icon.svg"
               alt="Description of the image"
               width={14}
               height={14}
@@ -241,7 +240,7 @@ const Plan = () => {
         </div>
         <div className="card-plan bg-white border-b-amber-100 pt-20">
           <p>Organization</p>
-          <h1 className="font-bold">$49.99</h1> 
+          <h1 className="plan-price ">$49.99</h1> 
           <p>Capture ideas and find them quickly</p>
 
           <div className="plan-card-content">
@@ -335,7 +334,7 @@ const Plan = () => {
           </div>
 
           <div className="plan-button-holder m-10 ">
-            <button className="plan-button">
+            <button className="plan-button bg-gray-300">
             Get Started
               <img
                 className="right-box-image  "
@@ -347,7 +346,7 @@ const Plan = () => {
             </button>
           </div>
         </div>
-        </div> */}
+        </div>
       
       </div>
     </div>

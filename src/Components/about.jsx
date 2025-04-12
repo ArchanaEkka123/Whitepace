@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import ContactForm from "./contacform";
+
 import Services from "./Services";
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
               <div>
                 
                 <p className="name   ">
-                About me
+                Solutions
                 </p>
                 <p className="content">
                 Nisl arcu, scelerisque neque ut. Tincidunt amet, 
@@ -20,7 +20,7 @@ const About = () => {
                 Aliquet risus posuere aliquet imperdiet sit.
                 </p>
                 <div className="button-holder gap-12 w-80 mt-20 ">
-                <button className="button">Resume</button>
+                <button className="button">Search</button>
                
               </div>
               </div>
@@ -35,7 +35,7 @@ const About = () => {
             </div>
           
           </div>
-          {/* <ContactForm/> */}
+         
           <Services/>
     </div>
 

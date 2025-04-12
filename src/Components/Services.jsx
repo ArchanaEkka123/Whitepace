@@ -10,7 +10,7 @@ const Services = () => {
               <div className="w-2xl">
                 
                 <p className="heading-skills">
-                My Skills
+                Services
                 </p>
                 <p className="content ">
                 Nisl arcu, scelerisque neque ut. Tincidunt amet, 
@@ -19,7 +19,7 @@ const Services = () => {
                 Aliquet risus posuere aliquet imperdiet sit.
                 </p>
                 <div className="button-holder gap-12 w-80 mt-20 ">
-                <button className="button">Contact Me</button>
+                <button className="button">Contact Us</button>
                
               </div>
               </div>
@@ -27,11 +27,13 @@ const Services = () => {
             </div>
             <div className="left_sec">
               <img
-                className="mb-[-210px]"
-                src="/images/skills.svg"    
+                // className="mb-[-210px]"
+                src="/images/presentation5.jpg"    
                 alt="Description of the image"
+                width={500}
+                height={500}
               />
-              <div className=" w-50 inner-content">
+              {/* <div className=" w-50 inner-content">
               <p className="text-3xl font-bold text-white">
                 JavaScript
                 </p>
@@ -42,7 +44,7 @@ const Services = () => {
                 
                 </p>
 
-              </div>
+              </div> */}
               
             </div>
           
