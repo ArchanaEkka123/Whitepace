@@ -104,10 +104,10 @@ const Footer = () => {
           <div className="footer-2-left text-amber-50">
             <img
               className="right-box-image  "
-              src="/images/gobal.svg"
+              src="/images/global.svg"
               alt="Description of the image"
-              width={14}
-              height={14}
+              width={19}
+              height={19}
             />
             <p> English</p>
 
